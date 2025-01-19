@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value=".\PenguinChat.exe"/>
+    <OBJFILES value="output\PenguinChat.obj output\GUIChat.obj output\ChatHistory.obj 
+      output\SkinCache.obj output\chat.obj output\comm.obj output\cript.obj 
+      output\files.obj output\misc.obj output\user.obj output\GUIUtils.obj"/>
+    <RESFILES value="PenguinChat.res"/>
+    <IDLFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) GUIChat.dfm"/>
+    <LIBFILES value="..\libs\TexLib\Lib\Borland\TexLib.lib"/>
+    <LIBRARIES value="vcl50.lib"/>
+    <SPARELIBS value="vcl50.lib"/>
+    <PACKAGES value="vclx50.bpi vcl50.bpi vcldb50.bpi vclbde50.bpi vcldbx50.bpi bcbsmp50.bpi 
+      dclocx50.bpi qrpt50.bpi teeui50.bpi vclsmp50.bpi teedb50.bpi tee50.bpi 
+      ibsmp50.bpi dss50.bpi nmfast50.bpi inetdb50.bpi inet50.bpi vclmid50.bpi"/>
+    <PATHCPP value=".;chat"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="PenguinChat.cpp"/>
+    <INCLUDEPATH value="E:\Lenguaje\CBuilder\CBuilder5\Projects\;&quot;c:\archivos de programa\borland\cbuilder3\projects\&quot;;E:\chat\;$(BCB)\include;$(BCB)\include\vcl;..\libs\texlib;..\libs\TexLib\Src;chat"/>
+    <LIBPATH value="chat;E:\Lenguaje\CBuilder\CBuilder5\Projects\;&quot;c:\archivos de programa\borland\cbuilder3\projects\&quot;;&quot;E:\vc\terraintexturizer\palette textures mipmaps\&quot;;E:\chat\;$(BCB)\lib\obj;$(BCB)\lib;..\libs\TexLib\Lib\Borland"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -Vx -Ve -Tkh30000 -X- -r- -a4 -5 -b -k -y -v -vi- -c -tW -tWM"/>
+    <CFLAG2 value=""/>
+    <CFLAG3 value=""/>
+    <PFLAGS value="-N2output -N0output -$YD -$W -$O- -v -M -JPHNE"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-Ioutput -D&quot;&quot; -Sc:0x100000 -aa -Tpe -x -Gn -w -v"/>
+    <IFLAGS value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3082
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+$(BCB)\Bin\bcbsmp50.bpl=Borland C++ Sample Components
+$(BCB)\Bin\dcl31w50.bpl=Delphi 1.0 Compatibility Components
+$(BCB)\Bin\bcb2kaxserver50.bpl=Borland C++Builder COM Server Components Sample Package
+$(BCB)\Bin\dclocx50.bpl=Borland Sample Imported ActiveX Controls
+
+[HistoryLists\hlIncludePath]
+Count=13
+Item0=E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;E:\chat\;$(BCB)\include;$(BCB)\include\vcl;..\libs\texlib;..\libs\TexLib\Src;chat
+Item1=E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;E:\chat\;$(BCB)\include;$(BCB)\include\vcl;..\libs\texlib;..\libs\TexLib\Src;E:\MyProjects\Chat\chat
+Item2=E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;E:\chat\;$(BCB)\include;$(BCB)\include\vcl;..\libs\texlib;..\libs\TexLib\Src
+Item3=E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;E:\chat\;$(BCB)\include;$(BCB)\include\vcl;..\libs\texlib;E:\MyProjects\libs\TexLib\Src
+Item4=E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;E:\chat\;$(BCB)\include;$(BCB)\include\vcl;..\libs\texlib;E:\libs\texlib\
+Item5=E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;..\..\chat;$(BCB)\include;$(BCB)\include\vcl;..\libs\texlib;..\..\libs\texlib
+Item6=E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;..\..\chat;$(BCB)\include;$(BCB)\include\vcl;..\..\libs\texlib
+Item7=E:\Lenguaje\CBuilder\CBuilder5\Projects;c:\archivos de programa\borland\cbuilder3\projects\;..\..\chat;$(BCB)\include;$(BCB)\include\vcl;E:\Projects\libs\texlib
+Item8=E:\Lenguaje\CBuilder\CBuilder5\Projects;..\..\VC\TerrainTexturizer\Palette Textures MipMaps;..\PS2-Editor\Project\Textures;c:\archivos de programa\borland\cbuilder3\projects\;..\..\chat;$(BCB)\include;$(BCB)\include\vcl
+Item9=..\PS2-Editor\Project\Textures;c:\archivos de programa\borland\cbuilder3\projects\;..\..\chat;$(BCB)\include;$(BCB)\include\vcl
+Item10=..\..\VC\TerrainTexturizer\Palette Textures MipMaps;c:\archivos de programa\borland\cbuilder3\projects\;..\..\chat;$(BCB)\include;$(BCB)\include\vcl
+Item11=c:\archivos de programa\borland\cbuilder3\projects\;..\..\chat;$(BCB)\include;$(BCB)\include\vcl
+Item12=c:\archivos de programa\borland\cbuilder3\projects\;..\..\vc\terraintexturizer\palette textures mipmaps;..\..\chat;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=8
+Item0=chat;E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;E:\vc\terraintexturizer\palette textures mipmaps\;E:\chat\;$(BCB)\lib\obj;$(BCB)\lib;..\libs\TexLib\Lib\Borland
+Item1=chat;E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;E:\vc\terraintexturizer\palette textures mipmaps\;E:\chat\;$(BCB)\lib\obj;$(BCB)\lib;E:\MyProjects\libs\TexLib\Lib\Borland
+Item2=chat;E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;E:\vc\terraintexturizer\palette textures mipmaps\;E:\chat\;$(BCB)\lib\obj;$(BCB)\lib
+Item3=E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;E:\vc\terraintexturizer\palette textures mipmaps\;E:\chat\;$(BCB)\lib\obj;$(BCB)\lib
+Item4=E:\Lenguaje\CBuilder\CBuilder5\Projects\;c:\archivos de programa\borland\cbuilder3\projects\;..\..\vc\terraintexturizer\palette textures mipmaps;..\..\chat;$(BCB)\lib\obj;$(BCB)\lib
+Item5=E:\Lenguaje\CBuilder\CBuilder5\Projects\;..\PS2-Editor\project\Textures;c:\archivos de programa\borland\cbuilder3\projects\;..\..\vc\terraintexturizer\palette textures mipmaps;..\..\chat;$(BCB)\lib\obj;$(BCB)\lib
+Item6=E:\Lenguaje\CBuilder\CBuilder5\Projects;..\PS2-Editor\project\Textures;c:\archivos de programa\borland\cbuilder3\projects\;..\..\vc\terraintexturizer\palette textures mipmaps;..\..\chat;$(BCB)\lib\obj;$(BCB)\lib
+Item7=c:\archivos de programa\borland\cbuilder3\projects\;..\..\vc\terraintexturizer\palette textures mipmaps;..\..\chat;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=output
+
+[HistoryLists\hlFinalOutputDir]
+Count=2
+Item0=.\
+Item1=.
+
+[Debugging]
+DebugSourceDirs=c:\archivos de programa\borland\cbuilder5\source\vcl;D:\Programming\libs\TexLib\Src\;D:\Programming\libs\TexLib\Src\TexCnvFuncs\
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+  </IDEOPTIONS>
+</PROJECT>
