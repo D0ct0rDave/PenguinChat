@@ -1,4 +1,4 @@
-# PenguiChat
+# PenguinChat
 
 This application started as a substitution of PonyChat, a chat based on mailslots we used on our video game studio. One of my collegues hacked PonyChat so he could impersonate each of the rest o the team mates, which lend to many funny and also some compromised situations.
 
